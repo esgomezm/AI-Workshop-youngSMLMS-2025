@@ -11,9 +11,15 @@ This hands-on workshop introduces participants to modern AI tools for bioimage a
 
 2. **Reproducible AI-pipelines with DL4MicEverywhere**  
 
-3. **Zero-Shot Segmentation with DINOSim** ([GitHub Repo](https://github.com/AAitorG/napari-DINOSim))  
+3. **Zero-Shot Segmentation with DINOSim**  
 
 4. **Exploration of the BioImage Model Zoo**  
+
+Repository with all materials:  
+👉 [https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025](https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025)  
+
+Data and pretrained models:  
+👉 [Workshop Data Release](https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025/releases/tag/data)  
 
 ---
 
@@ -25,9 +31,9 @@ This hands-on workshop introduces participants to modern AI tools for bioimage a
 1. Google Colab  
 2. [ZeroCostDL4Mic repository](https://github.com/HenriquesLab/ZeroCostDL4Mic)  
 3. Test/Example Data:  
-   - **BIN10-DeepSTORM.zip** (available in the repository releases, subset from [von Chamier et al., Nat Comms 2021](https://www.nature.com/articles/s41467-021-22518-0))  
+   - **BIN10-DeepSTORM.zip** (provided in the [workshop data release](https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025/releases/tag/data))  
 4. Pretrained Model:  
-   - **smlm_18082025_v02.zip** (available in repository releases) – enables faster execution of the exercise  
+   - **smlm_18082025_v02.zip** (available in the same data release)   
 
 ---
 
@@ -35,9 +41,9 @@ This hands-on workshop introduces participants to modern AI tools for bioimage a
 
 **Goal:** Explore reproducible and portable AI workflows for bioimage analysis.  
 
-### Requirements
+### Requirements  
 1. [DL4MicEverywhere](https://github.com/HenriquesLab/DL4MicEverywhere)  
-   - Test with: **U-Net_2D_Multilabel_ZeroCostDL4Mic.ipynb**  
+   - Test with: **U-Net_2D_Multilabel_ZeroCostDL4Mic.ipynb** (included in the repository)  
 2. Docker  
    - Installed automatically at first launch (if not, download from [docker.com](https://www.docker.com/))  
    - ⚠️ Requires **root access** for installation  
@@ -53,7 +59,7 @@ Follow the detailed walkthrough provided in:
 **Goal:** Try transformer-based segmentation with no manual annotations.  
 
 - Tool: [napari-DINOSim](https://github.com/AAitorG/napari-DINOSim) (napari plugin)  
-- Data: **EVs-EM.zip** (available in repository releases)  
+- Data: **EVs-EM.zip** (available in the [workshop data release](https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025/releases/tag/data))  
 - Paper: [DOI:10.1101/2025.03.09.642092](https://doi.org/10.1101/2025.03.09.642092)  
 
 ---
@@ -77,10 +83,9 @@ Visit: [bioimage.io](https://bioimage.io/#/) and try pretrained models, such as:
 
 ## ✅ Final Notes  
 - Please ensure **Google Colab and Docker** are set up in advance.  
-- Download datasets and pretrained models before the workshop.  
+- All required datasets and pretrained models are bundled in the [workshop data release](https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025/releases/tag/data).  
 - Tutorials are structured to be progressive: start with **DeepSTORM**, move to **DL4MicEverywhere**, then explore **DINOSim** and the **Model Zoo**.  
 
 ---
 
 ✨ **By the end of this workshop, participants will have hands-on experience with deep learning pipelines, zero-shot segmentation, and models from the BioImage Model Zoo.**
-
