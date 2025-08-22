@@ -15,11 +15,8 @@ This hands-on workshop introduces participants to modern AI tools for bioimage a
 
 4. **Exploration of the BioImage Model Zoo**  
 
-Repository with all materials:  
-👉 [https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025](https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025)  
-
 Data and pretrained models:  
-👉 [Workshop Data Release](https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025/releases/tag/data)  
+👉 [Workshop Data](https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025/releases/tag/data)  
 
 ---
 
