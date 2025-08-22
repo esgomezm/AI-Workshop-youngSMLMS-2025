@@ -25,25 +25,25 @@ Data and pretrained models:
 **Goal:** Learn hands-on image reconstruction from high-density SMLM using DeepSTORM.  
 
 ### Requirements
-1. Google Colab  
+1. Google Colab and ~5GB of free space in Google Drive
 2. [ZeroCostDL4Mic repository](https://github.com/HenriquesLab/ZeroCostDL4Mic)  
-3. Test/Example Data:  
+3. Test/Example Data accessible from Google Drive:  
    - **BIN10-DeepSTORM.zip** (provided in the [workshop data release](https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025/releases/tag/data))  
-4. Pretrained Model:  
+4. Pretrained Model accessible from Google Drive:  
    - **smlm_18082025_v02.zip** (available in the same data release)   
 
 ---
 
 ## 2. 🖥️ DL4MicEverywhere  
 
-**Goal:** Explore reproducible and portable AI workflows for bioimage analysis.  
+**Goal:** Explore how to build reproducible and portable AI workflows. I will show how to use it step by step rather than going through a hands-on. 
 
 ### Requirements  
 1. [DL4MicEverywhere](https://github.com/HenriquesLab/DL4MicEverywhere)  
-   - Test with: **U-Net_2D_Multilabel_ZeroCostDL4Mic.ipynb** (included in the repository)  
+   - Test with: **U-Net_2D_Multilabel_ZeroCostDL4Mic.ipynb** 
 2. Docker  
    - Installed automatically at first launch (if not, download from [docker.com](https://www.docker.com/))  
-   - ⚠️ Requires **root access** for installation  
+   - ⚠️ Requires **root access** for first time installation  
 
 ### Step-by-Step Exercises  
 Follow the detailed walkthrough provided in:  
@@ -53,11 +53,11 @@ Follow the detailed walkthrough provided in:
 
 ## 3. 🧩 DINOSim: Zero-Shot Segmentation  
 
-**Goal:** Try transformer-based segmentation with no manual annotations.  
+**Goal:** Try transformer-based ZeroShot segmentation with little manual prompting.  
 
-- Tool: [napari-DINOSim](https://github.com/AAitorG/napari-DINOSim) (napari plugin)  
-- Data: **EVs-EM.zip** (available in the [workshop data release](https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025/releases/tag/data))  
-- Paper: [DOI:10.1101/2025.03.09.642092](https://doi.org/10.1101/2025.03.09.642092)  
+- Tool: [napari-DINOSim](https://github.com/AAitorG/napari-DINOSim) (napari plugin) installed locally
+- Data: **EVs-EM.zip** downloaded locally (available in the [workshop data](https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025/releases/tag/data))  
+- Paper: A. González-Marfil, E. Gómez-de-Mariscal, I. Arganda-Carreras, DINOSim: Zero-Shot Object Detection and Semantic Segmentation on Electron Microscopy Images, bioRxiv 2025 [DOI:10.1101/2025.03.09.642092](https://doi.org/10.1101/2025.03.09.642092)  
 
 ---
 
@@ -69,7 +69,7 @@ Follow the detailed walkthrough provided in:
 - Browser: **Google Chrome**  
 
 ### Recommended Exploration  
-Visit: [bioimage.io](https://bioimage.io/#/) and try pretrained models, such as:  
+Visit: [bioimage.io](https://bioimage.io/#/) and try test-running pretrained models on the browser, such as:  
 - **placid-llama**  
 - **sincere-microbe**  
 - **loyal-squid**  
@@ -79,10 +79,6 @@ Visit: [bioimage.io](https://bioimage.io/#/) and try pretrained models, such as:
 ---
 
 ## ✅ Final Notes  
-- Please ensure **Google Colab and Docker** are set up in advance.  
-- All required datasets and pretrained models are bundled in the [workshop data release](https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025/releases/tag/data).  
-- Tutorials are structured to be progressive: start with **DeepSTORM**, move to **DL4MicEverywhere**, then explore **DINOSim** and the **Model Zoo**.  
-
+- Please ensure you have an internet connection  
+- For any questions, you can contact me directly by email.
 ---
-
-✨ **By the end of this workshop, participants will have hands-on experience with deep learning pipelines, zero-shot segmentation, and models from the BioImage Model Zoo.**
