@@ -27,10 +27,10 @@ Data and pretrained models:
 ### Requirements
 1. Google Colab and ~5GB of free space in Google Drive
 2. [ZeroCostDL4Mic repository](https://github.com/HenriquesLab/ZeroCostDL4Mic)  
-3. Test/Example Data accessible from Google Drive:  
+3. Test/Example Data accessible from Google Drive. Please upload the unzipped folder:  
    - **BIN10-DeepSTORM.zip** (provided in the [workshop data release](https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025/releases/tag/data))  
-4. Pretrained Model accessible from Google Drive:  
-   - **smlm_18082025_v02.zip** (available in the same data release)   
+4. Pretrained Model accessible from Google Drive. Please upload the unzipped folder:  
+   - **smlm_18082025_v02.zip** (provided in the [workshop data release](https://github.com/esgomezm/AI-Workshop-youngSMLMS-2025/releases/tag/data))  
 
 ---
 
